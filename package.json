@@ -1,0 +1,38 @@
+{
+  "name": "hapijs_tests",
+  "version": "1.0.0",
+  "description": "Experimental tests with Hapi JS framework",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonardootoni/hapijs_tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonardootoni/hapijs_tests/issues"
+  },
+  "homepage": "https://github.com/leonardootoni/hapijs_tests#readme",
+  "dependencies": {
+    "@hapi/hapi": "^19.1.1",
+    "@hapi/joi": "^17.1.0",
+    "dotenv": "^8.2.0",
+    "laabr": "^6.0.1",
+    "mongoose": "^5.9.2"
+  },
+  "devDependencies": {
+    "@hapi/eslint-config-hapi": "^13.0.2",
+    "@hapi/eslint-plugin-hapi": "^4.3.5",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1"
+  }
+}

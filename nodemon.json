@@ -1,0 +1,8 @@
+{
+  "verbose": false,
+  "watch": ["*"],
+  "ignore": ["*.test.js"],
+  "execMap": {
+    "js": "node"
+  }
+}
